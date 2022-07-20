@@ -469,7 +469,7 @@ img{
 
 .education__title,
 .experience__title{
-  font-size: var(--h3-font-size);
+  font-size: var(--h2-font-size);
 }
 
 .education__studies,
@@ -520,6 +520,16 @@ img{
 }
 
 /*========== REFERENCES ==========*/
+
+.referances__content{
+  gap: .25rem;
+}
+
+.references__subtitle{
+  color: var(--text-color-light);
+}
+
+.references__subtitle,
 
 
 /*========== INTERESTS ==========*/
