@@ -521,7 +521,7 @@ img{
 
 /*========== REFERENCES ==========*/
 
-.referances__content{
+.references__content{
   gap: .25rem;
 }
 
@@ -530,6 +530,13 @@ img{
 }
 
 .references__subtitle,
+.references__content{
+  font-size: var(--smaller-font-size);
+}
+
+.references__title{
+  font-size: var(--h3-font-size);
+}
 
 
 /*========== INTERESTS ==========*/
