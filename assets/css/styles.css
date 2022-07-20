@@ -108,6 +108,7 @@ body.scale-cv{
 
 .scale-cv .bd-container{
   max-width: 595px;
+  min-height: 1500px !important;
 }
 
 .scale-cv .section{
@@ -121,6 +122,7 @@ body.scale-cv{
 .scale-cv .resume__left,
 .scale-cv .resume__right{
   padding: 0 1rem;
+  height: 1122px;
 }
 
 .scale-cv .home__img{
@@ -173,7 +175,7 @@ body.scale-cv{
 }
 
 .scale-cv .education__data,
-.scale-cv . .experience__data{
+.scale-cv  .experience__data{
   gap: .25rem;
 }
 
