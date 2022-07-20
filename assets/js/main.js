@@ -94,6 +94,15 @@ themeButton.addEventListener('click', () => {
 /*==================== GENERATE PDF ====================*/ 
 // PDF generated area
 
+function scaleCv(){
+    document.body.classList.add("scale-cv")
+}
+
+function removeScaleCv(){
+    document.body.classList.remove("scale-cv")
+}
+
+let resumeButton = document.getElementById("resume-button")
 
 // Html2pdf options
 
@@ -102,7 +111,9 @@ themeButton.addEventListener('click', () => {
 
 
 // When the button is clicked, it executes the three functions
-
+resumeButton.addEventListener("click", ()=> {
+    scaleCv();
+})
     // 1. The class .scale-cv is added to the body, where it reduces the size of the elements
 
 
