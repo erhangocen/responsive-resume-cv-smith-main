@@ -149,6 +149,10 @@ body.scale-cv{
   font-size: 1rem;
 }
 
+.scale-cv .profile__description{
+  font-size: 12px;
+}
+
 .scale-cv .education__container,
 .scale-cv  .experience__container,
 .scale-cv .certificate__container{
@@ -427,7 +431,7 @@ img{
 
 .profile__description{
   text-align: center;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 /*========== EDUCATION AND EXPERIENCE ==========*/
