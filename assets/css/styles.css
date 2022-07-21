@@ -547,7 +547,7 @@ img{
   margin-top: var(--mb-2);
 }
 
-.interests__content{
+.interest__content{
   display: flex;
   flex-direction: column;
   align-items: center;
